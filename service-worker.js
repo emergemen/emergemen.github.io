@@ -2,6 +2,7 @@ var CACHE_NAME = 'static-cache';
 var urlsToCache = [
 	".",
 	"index.html",
+	"pcc",
 	"pcc/.",
 	"pcc/index.html",
 	"pcc/Emerge-Teams-Ministers-2021.pdf",
