@@ -15,7 +15,16 @@ var urlsToCache = [
 	"/css/bootstrap-reboot.css",
 	"/css/bootstrap-reboot.min.css",
 	"/images/Emerge-Men-Ministry-Awaken-Church-Logo-100x100.png",
-	"/images/Emerge-Men-Ministry-Awaken-Church-Logo.png"
+	"/images/Emerge-Men-Ministry-Awaken-Church-Logo.png",
+	"/images/qr/qr-emrg-words.png",
+	"/images/qr/qr-emrg-awakenrecovery.png",
+	"/images/qr/qr-emrg-directory.png",
+	"/images/qr/qr-emrg-emergeresource.png",
+	"/images/qr/qr-emrg-freedomprayer.png",
+	"/images/qr/qr-emrg-iamfree.png",
+	"/images/qr/qr-emrg-marriageresource.png",
+	"/images/qr/qr-emrg-pastoral.png",
+	"/images/qr/qr-emrg-premarital.png"
 ];
 
 self.addEventListener('install', function(event) {
@@ -54,3 +63,5 @@ function fetchAndCache(url) {
     // You could return a custom offline 404 page here
   });
 }
+
+
