@@ -13,7 +13,9 @@ var urlsToCache = [
 	"/css/bootstrap-grid.css",
 	"/css/bootstrap-grid.min.css",
 	"/css/bootstrap-reboot.css",
-	"/css/bootstrap-reboot.min.css"
+	"/css/bootstrap-reboot.min.css",
+	"/images/Emerge-Men-Ministry-Awaken-Church-Logo-100x100.png",
+	"/images/Emerge-Men-Ministry-Awaken-Church-Logo.png"
 ];
 
 self.addEventListener('install', function(event) {
